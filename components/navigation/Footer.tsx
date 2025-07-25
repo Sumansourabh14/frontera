@@ -7,6 +7,7 @@ import {
 } from "../ui/navigation-menu";
 import { Separator } from "../ui/separator";
 import { menuOptions, SITE_METADATA } from "@/data/constants";
+import { AuroraText } from "../magicui/aurora-text";
 
 const Footer = () => {
   return (
@@ -28,7 +29,7 @@ const Footer = () => {
       </NavigationMenu>
       <section className="text-center mt-20">
         <p className="font-bold tracking-tighter text-7xl sm:text-8xl lg:text-[11rem] xl:text-[13rem] 2xl:text-[15rem]">
-          {SITE_METADATA.title}
+          <AuroraText>{SITE_METADATA.title}</AuroraText>
         </p>
       </section>
       <Separator className="mt-6" />

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const PageCover = ({ url, image }: PageCardProps) => {
   return (
-    <div className="relative aspect-[3/4] overflow-hidden rounded-t-md group">
+    <div className="relative aspect-[3/4] overflow-hidden rounded-sm group">
       <Link href={url} target="_blank" rel="noopener noreferrer">
         <Image
           src={image}

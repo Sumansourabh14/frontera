@@ -1,6 +1,67 @@
 [
   {
-    "name": "Front End Interview Handbook",
-    "url": "https://www.frontendinterviewhandbook.com/"
+    "name": "Linear",
+    "url": "https://linear.app",
+    "image": "/images/linear.jpg"
+  },
+  {
+    "name": "Notion",
+    "url": "https://www.notion.so",
+    "image": "/images/notion.jpg"
+  },
+  {
+    "name": "Superlist",
+    "url": "https://www.superlist.com",
+    "image": "/images/superlist.jpg"
+  },
+  {
+    "name": "Raycast",
+    "url": "https://raycast.com",
+    "image": "/images/raycast.jpg"
+  },
+  {
+    "name": "Framer",
+    "url": "https://www.framer.com",
+    "image": "/images/framer.jpg"
+  },
+  {
+    "name": "Pitch",
+    "url": "https://pitch.com",
+    "image": "/images/pitch.jpg"
+  },
+  {
+    "name": "Tldraw",
+    "url": "https://www.tldraw.com",
+    "image": "/images/tldraw.jpg"
+  },
+  {
+    "name": "Arc",
+    "url": "https://arc.net",
+    "image": "/images/arc.jpg"
+  },
+  {
+    "name": "Arcade",
+    "url": "https://www.arcade.software",
+    "image": "/images/arcade.jpg"
+  },
+  {
+    "name": "Marvin",
+    "url": "https://heymarvin.com",
+    "image": "/images/marvin.jpg"
+  },
+  {
+    "name": "Loom",
+    "url": "https://www.loom.com",
+    "image": "/images/loom.jpg"
+  },
+  {
+    "name": "Retool",
+    "url": "https://retool.com",
+    "image": "/images/retool.jpg"
+  },
+  {
+    "name": "Zapier",
+    "url": "https://zapier.com",
+    "image": "/images/zapier.jpg"
   }
 ]

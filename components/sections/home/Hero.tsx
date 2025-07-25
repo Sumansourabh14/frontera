@@ -3,17 +3,17 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="py-40 2xl:py-60 px-8 flex flex-col items-center justify-center text-center bg-white text-black">
-      <h1 className="text-4xl md:text-6xl font-semibold tracking-tight mb-4">
+    <section className="py-24 2xl:py-40 px-8 flex flex-col items-center justify-center text-center">
+      <h1 className="text-6xl md:text-7xl lg:text-8xl font-semibold tracking-tight mb-8">
         Frontera
       </h1>
-      <p className="text-lg md:text-xl text-gray-600 max-w-xl mb-8">
+      <p className="text-lg md:text-xl max-w-xl mb-8">
         A curated view of the web’s most beautiful landing pages. Simple.
         Visual. Inspiring.
       </p>
       <Link
         href="#gallery"
-        className="px-6 py-3 text-sm font-medium border border-black rounded-full hover:bg-black hover:text-white transition"
+        className="px-6 py-3 text-sm font-medium border rounded-full transition"
       >
         Explore Gallery
       </Link>

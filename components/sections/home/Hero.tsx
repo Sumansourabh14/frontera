@@ -4,8 +4,8 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="py-24 2xl:py-40 px-8 flex flex-col items-center justify-center text-center">
-      <h1 className="text-6xl md:text-7xl lg:text-8xl font-semibold tracking-tight mb-8">
-        Frontera
+      <h1 className="text-6xl md:text-7xl lg:text-8xl font-semibold tracking-tight mb-8 max-w-4xl">
+        Your favorite pages. All in one place.
       </h1>
       <p className="text-lg md:text-xl max-w-xl mb-8">
         A curated view of the web’s most beautiful landing pages. Simple.

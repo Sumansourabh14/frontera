@@ -8,7 +8,9 @@ export default function Home() {
       <main>
         <Hero />
         <Separator />
-        <LandingPagesGrid />
+        <section className="max-w-[1400px] mx-auto">
+          <LandingPagesGrid />
+        </section>
       </main>
     </div>
   );

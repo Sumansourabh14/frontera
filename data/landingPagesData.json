@@ -196,5 +196,89 @@
     "url": "https://www.screen.studio",
     "image": "/images/screenstudio.jpg",
     "category": "Video Communication"
+  },
+  {
+    "name": "Cred",
+    "url": "https://cred.club",
+    "image": "/images/cred.jpg",
+    "category": "Credit Card Management"
+  },
+  {
+    "name": "Slash",
+    "url": "https://www.joinslash.com",
+    "image": "/images/slash.jpg",
+    "category": "Financial Management"
+  },
+  {
+    "name": "Fi",
+    "url": "https://fi.money",
+    "image": "/images/fi.jpg",
+    "category": "Digital Banking"
+  },
+  {
+    "name": "Slice",
+    "url": "https://sliceit.com",
+    "image": "/images/slice.jpg",
+    "category": "Credit & Payments"
+  },
+  {
+    "name": "Jupiter",
+    "url": "https://jupiter.money",
+    "image": "/images/jupiter.jpg",
+    "category": "Digital Banking"
+  },
+  {
+    "name": "OneCard",
+    "url": "https://www.getonecard.app",
+    "image": "/images/onecard.jpg",
+    "category": "Credit Card"
+  },
+  {
+    "name": "Step",
+    "url": "https://www.step.com",
+    "image": "/images/step.jpg",
+    "category": "Digital Banking"
+  },
+  {
+    "name": "Koho",
+    "url": "https://www.koho.ca",
+    "image": "/images/koho.jpg",
+    "category": "Digital Banking"
+  },
+  {
+    "name": "Neon",
+    "url": "https://www.neon-free.ch/en/",
+    "image": "/images/neon.jpg",
+    "category": "Digital Banking"
+  },
+  {
+    "name": "Current",
+    "url": "https://www.current.com",
+    "image": "/images/current.jpg",
+    "category": "Digital Banking"
+  },
+  {
+    "name": "Monzo",
+    "url": "https://monzo.com",
+    "image": "/images/monzo.jpg",
+    "category": "Digital Banking"
+  },
+  {
+    "name": "Revolut",
+    "url": "https://www.revolut.com",
+    "image": "/images/revolut.jpg",
+    "category": "Financial Super-App"
+  },
+  {
+    "name": "N26",
+    "url": "https://n26.com",
+    "image": "/images/n26.jpg",
+    "category": "Digital Banking"
+  },
+  {
+    "name": "Venmo",
+    "url": "https://venmo.com",
+    "image": "/images/venmo.jpg",
+    "category": "Payments"
   }
 ]

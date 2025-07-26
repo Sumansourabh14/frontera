@@ -2,6 +2,7 @@ import FAQ from "@/components/sections/home/FAQ";
 import Hero from "@/components/sections/home/Hero";
 import LandingPagesGrid from "@/components/sections/home/LandingPagesGrid";
 import { ReviewMarquee } from "@/components/sections/home/ReviewMarquee";
+import Stats from "@/components/sections/home/Stats";
 import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
@@ -16,6 +17,10 @@ export default function Home() {
         <Separator />
         <section className="py-30">
           <ReviewMarquee />
+        </section>
+        <Separator />
+        <section className="max-w-[1600px] mx-auto">
+          <Stats />
         </section>
         <Separator />
         <section className="relative py-30 overflow-hidden">

@@ -19,6 +19,12 @@ const Hero = () => {
       </Link>
       <div className="absolute -top-10 -left-10 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl opacity-40 animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl opacity-30 animate-pulse"></div>
+
+      {/* Center Layered Ring */}
+      <div className="absolute left-1/2 top-1/2 w-96 h-96 -translate-x-1/2 -translate-y-1/2 rounded-full border-[1px] border-white/10 bg-white/5 blur-2xl opacity-20 pointer-events-none" />
+
+      {/* Grid dotted pattern overlay */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,_rgba(255,255,255,0.05)_1px,_transparent_0)] [background-size:20px_20px] z-0" />
     </section>
   );
 };

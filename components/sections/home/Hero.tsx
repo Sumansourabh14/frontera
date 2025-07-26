@@ -1,10 +1,9 @@
 import { AuroraText } from "@/components/magicui/aurora-text";
 import Link from "next/link";
-import React from "react";
 
 const Hero = () => {
   return (
-    <section className="py-24 2xl:py-40 px-8 flex flex-col items-center justify-center text-center">
+    <section className="py-24 2xl:py-32 px-8 flex flex-col items-center justify-center text-center relative">
       <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-8 max-w-4xl">
         Your favorite pages, <AuroraText>all at one place</AuroraText>
       </h1>
@@ -18,6 +17,8 @@ const Hero = () => {
       >
         Explore Gallery
       </Link>
+      <div className="absolute -top-10 -left-10 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl opacity-40 animate-pulse"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl opacity-30 animate-pulse"></div>
     </section>
   );
 };

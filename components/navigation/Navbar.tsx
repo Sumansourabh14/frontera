@@ -6,26 +6,33 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "../ui/navigation-menu";
-import { Separator } from "../ui/separator";
 
 const Navbar = () => {
   return (
-    <NavigationMenu className="flex gap-[12px] flex-wrap items-center justify-between max-w-[1400px] mx-auto px-8 py-6">
+    <NavigationMenu className="backdrop-blur-md bg-white/5 border border-white/10 text-white shadow-md rounded-xl px-6 py-4 max-w-[1400px] mx-auto mt-4 flex flex-wrap items-center justify-between">
       <section>
-        <Link href={`/`} className="text-xl font-light">
+        <Link
+          href={`/`}
+          className="text-2xl font-semibold tracking-tight hover:text-purple-300 transition-colors duration-300"
+        >
           {SITE_METADATA.title}
         </Link>
       </section>
-      <NavigationMenuList>
+
+      <NavigationMenuList className="flex gap-6 text-sm font-medium">
         {menuOptions.map((item, index) => (
           <NavigationMenuItem key={index}>
             <NavigationMenuLink asChild>
-              <Link href={item.destination}>{item.title}</Link>
+              <Link
+                href={item.destination}
+                className="hover:text-purple-400 transition-colors duration-300"
+              >
+                {item.title}
+              </Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
         ))}
       </NavigationMenuList>
-      <Separator />
     </NavigationMenu>
   );
 };

@@ -2,7 +2,7 @@ import { PageCardProps } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
 
-const PageCover = ({ url, image, name }: PageCardProps) => {
+const PageCover = ({ url, image, name, category }: PageCardProps) => {
   return (
     <div className="flex flex-col gap-4">
       <div className="relative aspect-[3/4] overflow-hidden rounded-sm group">
@@ -15,7 +15,10 @@ const PageCover = ({ url, image, name }: PageCardProps) => {
           />
         </Link>
       </div>
-      <p className="text-center font-bold text-lg">{name}</p>
+      <div className="flex justify-between items-baseline">
+        <p className="text-center font-bold text-lg">{name}</p>
+        <p className="text-center text-sm text-muted-foreground">{category}</p>
+      </div>
     </div>
   );
 };

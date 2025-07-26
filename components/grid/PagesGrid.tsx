@@ -13,6 +13,7 @@ const PagesGrid = async () => {
           url={item.url}
           image={item.image}
           name={item.name}
+          category={item.category}
         />
       ))}
     </div>

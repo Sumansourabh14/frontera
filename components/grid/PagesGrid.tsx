@@ -8,7 +8,12 @@ const PagesGrid = async () => {
   return (
     <div className="grid gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {pages.map((item: PageCardProps, index: number) => (
-        <PageCover key={index} url={item.url} image={item.image} />
+        <PageCover
+          key={index}
+          url={item.url}
+          image={item.image}
+          name={item.name}
+        />
       ))}
     </div>
   );

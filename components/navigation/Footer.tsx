@@ -11,7 +11,7 @@ import { AuroraText } from "../magicui/aurora-text";
 
 const Footer = () => {
   return (
-    <footer className="border-t py-6 px-8">
+    <footer className="border-t py-6 px-8 bg-zinc-950">
       <NavigationMenu className="flex flex-col md:flex-row gap-[24px] flex-wrap items-center justify-between max-w-[1400px] mx-auto px-4">
         <section className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} {SITE_METADATA.title}. All rights

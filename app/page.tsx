@@ -10,7 +10,7 @@ export default function Home() {
       <main>
         <Hero />
         <Separator />
-        <section className="max-w-[1400px] mx-auto">
+        <section className="max-w-[1600px] mx-auto">
           <LandingPagesGrid />
         </section>
         <Separator />

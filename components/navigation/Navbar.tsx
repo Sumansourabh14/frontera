@@ -9,7 +9,7 @@ import {
 
 const Navbar = () => {
   return (
-    <NavigationMenu className="backdrop-blur-md bg-white/5 border border-white/10 text-white shadow-md rounded-xl px-6 py-4 max-w-[1400px] mx-auto mt-4 flex flex-wrap items-center justify-between">
+    <NavigationMenu className="backdrop-blur-md bg-white/5 border border-white/10 text-white shadow-md rounded-xl px-6 py-4 max-w-[1600px] mx-auto mt-4 flex flex-wrap items-center justify-between">
       <section>
         <Link
           href={`/`}

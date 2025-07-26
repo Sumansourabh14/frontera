@@ -2,66 +2,199 @@
   {
     "name": "Linear",
     "url": "https://linear.app",
-    "image": "/images/linear.jpg"
+    "image": "/images/linear.jpg",
+    "category": "Project Management"
   },
   {
     "name": "Notion",
     "url": "https://www.notion.so",
-    "image": "/images/notion.jpg"
+    "image": "/images/notion.jpg",
+    "category": "Note-Taking & Collaboration"
   },
   {
     "name": "Superlist",
     "url": "https://www.superlist.com",
-    "image": "/images/superlist.jpg"
+    "image": "/images/superlist.jpg",
+    "category": "Task Management"
   },
   {
     "name": "Raycast",
-    "url": "https://raycast.com",
-    "image": "/images/raycast.jpg"
-  },
-  {
-    "name": "Framer",
-    "url": "https://www.framer.com",
-    "image": "/images/framer.jpg"
-  },
-  {
-    "name": "Pitch",
-    "url": "https://pitch.com",
-    "image": "/images/pitch.jpg"
+    "url": "https://www.raycast.com",
+    "image": "/images/raycast.jpg",
+    "category": "Productivity Launcher"
   },
   {
     "name": "Vercel",
     "url": "https://vercel.com",
-    "image": "/images/vercel.jpg"
+    "image": "/images/vercel.jpg",
+    "category": "Development Platform"
+  },
+  {
+    "name": "Framer",
+    "url": "https://www.framer.com",
+    "image": "/images/framer.jpg",
+    "category": "Design & Prototyping"
+  },
+  {
+    "name": "Pitch",
+    "url": "https://pitch.com",
+    "image": "/images/pitch.jpg",
+    "category": "Presentation"
   },
   {
     "name": "Tldraw",
     "url": "https://www.tldraw.com",
-    "image": "/images/tldraw.jpg"
+    "image": "/images/tldraw.jpg",
+    "category": "Whiteboard & Diagramming"
   },
   {
     "name": "Arc",
     "url": "https://arc.net",
-    "image": "/images/arc.jpg"
+    "image": "/images/arc.jpg",
+    "category": "Web Browser"
   },
   {
     "name": "Arcade",
     "url": "https://www.arcade.software",
-    "image": "/images/arcade.jpg"
+    "image": "/images/arcade.jpg",
+    "category": "Product Demos"
+  },
+  {
+    "name": "Marvin",
+    "url": "https://www.heymarvin.com",
+    "image": "/images/marvin.jpg",
+    "category": "AI Research"
   },
   {
     "name": "Loom",
     "url": "https://www.loom.com",
-    "image": "/images/loom.jpg"
+    "image": "/images/loom.jpg",
+    "category": "Video Communication"
   },
   {
     "name": "Retool",
     "url": "https://retool.com",
-    "image": "/images/retool.jpg"
+    "image": "/images/retool.jpg",
+    "category": "Low-Code Development"
   },
   {
     "name": "Zapier",
     "url": "https://zapier.com",
-    "image": "/images/zapier.jpg"
+    "image": "/images/zapier.jpg",
+    "category": "Automation"
+  },
+  {
+    "name": "Monday",
+    "url": "https://monday.com",
+    "image": "/images/monday.jpg",
+    "category": "Project Management"
+  },
+  {
+    "name": "Asana",
+    "url": "https://asana.com",
+    "image": "/images/asana.jpg",
+    "category": "Project Management"
+  },
+  {
+    "name": "Miro",
+    "url": "https://miro.com",
+    "image": "/images/miro.jpg",
+    "category": "Whiteboard & Collaboration"
+  },
+  {
+    "name": "ClickUp",
+    "url": "https://clickup.com",
+    "image": "/images/clickup.jpg",
+    "category": "Project Management"
+  },
+  {
+    "name": "Airtable",
+    "url": "https://www.airtable.com",
+    "image": "/images/airtable.jpg",
+    "category": "Database & Workflow"
+  },
+  {
+    "name": "Trello",
+    "url": "https://trello.com",
+    "image": "/images/trello.jpg",
+    "category": "Project Management"
+  },
+  {
+    "name": "Todoist",
+    "url": "https://todoist.com",
+    "image": "/images/todoist.jpg",
+    "category": "Task Management"
+  },
+  {
+    "name": "Figma",
+    "url": "https://www.figma.com",
+    "image": "/images/figma.jpg",
+    "category": "Design & Prototyping"
+  },
+  {
+    "name": "Webflow",
+    "url": "https://webflow.com",
+    "image": "/images/webflow.jpg",
+    "category": "No-Code Development"
+  },
+  {
+    "name": "Coda",
+    "url": "https://coda.io",
+    "image": "/images/coda.jpg",
+    "category": "Note-Taking & Collaboration"
+  },
+  {
+    "name": "Bubble",
+    "url": "https://bubble.io",
+    "image": "/images/bubble.jpg",
+    "category": "No-Code Development"
+  },
+  {
+    "name": "Productboard",
+    "url": "https://www.productboard.com",
+    "image": "/images/productboard.jpg",
+    "category": "Product Management"
+  },
+  {
+    "name": "Whimsical",
+    "url": "https://whimsical.com",
+    "image": "/images/whimsical.jpg",
+    "category": "Whiteboard & Diagramming"
+  },
+  {
+    "name": "Mural",
+    "url": "https://www.mural.co",
+    "image": "/images/mural.jpg",
+    "category": "Whiteboard & Collaboration"
+  },
+  {
+    "name": "Craft",
+    "url": "https://www.craft.do",
+    "image": "/images/craft.jpg",
+    "category": "Note-Taking & Collaboration"
+  },
+  {
+    "name": "Supernotes",
+    "url": "https://supernotes.app",
+    "image": "/images/supernotes.jpg",
+    "category": "Note-Taking & Collaboration"
+  },
+  {
+    "name": "Make",
+    "url": "https://www.make.com",
+    "image": "/images/make.jpg",
+    "category": "Automation"
+  },
+  {
+    "name": "Liveblocks",
+    "url": "https://liveblocks.io",
+    "image": "/images/liveblocks.jpg",
+    "category": "Collaboration API"
+  },
+  {
+    "name": "Screen Studio",
+    "url": "https://www.screen.studio",
+    "image": "/images/screenstudio.jpg",
+    "category": "Video Communication"
   }
 ]

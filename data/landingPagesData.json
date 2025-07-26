@@ -30,6 +30,11 @@
     "image": "/images/pitch.jpg"
   },
   {
+    "name": "Vercel",
+    "url": "https://vercel.com",
+    "image": "/images/vercel.jpg"
+  },
+  {
     "name": "Tldraw",
     "url": "https://www.tldraw.com",
     "image": "/images/tldraw.jpg"

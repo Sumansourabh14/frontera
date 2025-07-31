@@ -17,7 +17,7 @@ const Footer = () => {
           © {new Date().getFullYear()} {SITE_METADATA.title}. All rights
           reserved.
         </section>
-        <NavigationMenuList>
+        {/* <NavigationMenuList>
           {menuOptions.map((item, index) => (
             <NavigationMenuItem key={index}>
               <NavigationMenuLink asChild>
@@ -25,7 +25,7 @@ const Footer = () => {
               </NavigationMenuLink>
             </NavigationMenuItem>
           ))}
-        </NavigationMenuList>
+        </NavigationMenuList> */}
       </NavigationMenu>
       <section className="text-center mt-20">
         <p className="font-bold tracking-tighter text-7xl sm:text-8xl lg:text-[11rem] xl:text-[13rem] 2xl:text-[15rem]">

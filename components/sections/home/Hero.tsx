@@ -11,12 +11,12 @@ const Hero = () => {
         A curated view of the web’s most beautiful landing pages. Simple.
         Visual. Inspiring.
       </p>
-      <Link
+      {/* <Link
         href="#gallery"
         className="px-6 py-3 text-sm font-medium border rounded-full transition"
       >
         Explore Gallery
-      </Link>
+      </Link> */}
       <div className="absolute -top-10 -left-10 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl opacity-40 animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl opacity-30 animate-pulse"></div>
 

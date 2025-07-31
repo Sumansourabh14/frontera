@@ -19,7 +19,7 @@ const Navbar = () => {
         </Link>
       </section>
 
-      <NavigationMenuList className="flex gap-6 text-sm font-medium">
+      {/* <NavigationMenuList className="flex gap-6 text-sm font-medium">
         {menuOptions.map((item, index) => (
           <NavigationMenuItem key={index}>
             <NavigationMenuLink asChild>
@@ -32,7 +32,7 @@ const Navbar = () => {
             </NavigationMenuLink>
           </NavigationMenuItem>
         ))}
-      </NavigationMenuList>
+      </NavigationMenuList> */}
     </NavigationMenu>
   );
 };
